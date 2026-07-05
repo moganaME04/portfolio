@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mogana Shree KS | Full Stack Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#home">MS<span class="dot">.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="toggler-line"></span>
+      <span class="toggler-line"></span>
+      <span class="toggler-line"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="#home"><span>01</span> Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about"><span>02</span> About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills"><span>03</span> Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects"><span>04</span> Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience"><span>05</span> Experience</a></li>
+        <li class="nav-item"><a class="nav-link btn-contact-nav" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero-section">
+  <div class="hero-bg-grid"></div>
+  <div class="floating-orb orb-1"></div>
+  <div class="floating-orb orb-2"></div>
+  <div class="container hero-container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <p class="hero-eyebrow" data-aos>MERN STACK DEVELOPER — BASED IN INDIA</p>
+        <h1 class="hero-title" data-aos>
+          <span class="line">Mogana Shree</span>
+          <span class="line accent-text">KS<span class="cursor-blink">|</span></span>
+        </h1>
+        <p class="hero-desc" data-aos>
+          I build fast, functional and beautifully designed digital products —
+          from pixel-perfect frontends to robust backend systems powered by
+          Node.js, Express & MongoDB.
+        </p>
+        <div class="hero-btns" data-aos>
+          <a href="#projects" class="btn btn-primary-custom">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-outline-custom">Let's Talk</a>
+        </div>
+        <div class="hero-stats" data-aos>
+          <div class="stat-box">
+            <h3 class="counter" data-target="6">0</h3>
+            <p>Tech Skills</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <h3 class="counter" data-target="2">0</h3>
+            <p>Projects Built</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-box">
+            <h3 class="counter" data-target="1">0</h3>
+            <p>Internship</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center">
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-card-header">
+              <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+              <span class="code-filename">mogana.dev</span>
+            </div>
+            <pre class="code-content"><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name:</span> <span class="c-str">'Mogana Shree KS'</span>,
+  <span class="c-prop">role:</span> <span class="c-str">'Full Stack Dev'</span>,
+  <span class="c-prop">stack:</span> [
+    <span class="c-str">'HTML'</span>, <span class="c-str">'CSS'</span>,
+    <span class="c-str">'JavaScript'</span>, <span class="c-str">'Bootstrap'</span>,
+    <span class="c-str">'Node.js'</span>, <span class="c-str">'Express'</span>,
+    <span class="c-str">'MongoDB'</span>
+  ],
+  <span class="c-prop">passion:</span> <span class="c-str">'building things'</span>,
+  <span class="c-prop">available:</span> <span class="c-key">true</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="section-header" data-aos>
+      <span class="eyebrow">02 — About Me</span>
+      <h2>Turning ideas into <span class="accent-text">working software</span></h2>
+    </div>
+    <div class="row align-items-center gy-4">
+      <div class="col-lg-5" data-aos>
+        <div class="about-card">
+          <div class="about-glow"></div>
+          <div class="about-initials">MS</div>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos>
+        <p class="about-text">
+          I'm <strong>Mogana Shree KS</strong>, a passionate full stack developer who loves
+          crafting clean, responsive interfaces and pairing them with reliable backend
+          architecture. My toolkit spans the modern web — from semantic HTML and
+          expressive CSS to dynamic JavaScript, and server-side systems built with
+          <strong> Node.js, Express and MongoDB</strong>.
+        </p>
+        <p class="about-text">
+          During my internship at <strong>ALKJ Technologics</strong>, I sharpened my
+          real-world development skills, collaborated on live projects, and learned
+          how to translate requirements into production-ready code. I enjoy solving
+          problems end-to-end — from database schema to the final pixel on screen.
+        </p>
+        <div class="about-info-grid">
+          <div class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <span>Email</span>
+              <p>moganame04@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+              <span>Internship</span>
+              <p>ALKJ Technologics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <div class="section-header" data-aos>
+      <span class="eyebrow">03 — Skills</span>
+      <h2>My <span class="accent-text">tech stack</span></h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-6 col-md-4 col-lg-3" data-aos>
+        <div class="skill-card">
+          <i class="fa-brands fa-html5"></i>
+          <h4>HTML5</h4>
+          <div class="skill-bar"><span style="width:95%"></span></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos>
+        <div class="skill-card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h4>CSS3</h4>
+          <div class="skill-bar"><span style="width:92%"></span></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos>
+        <div class="skill-card">
+          <i class="fa-brands fa-js"></i>
+          <h4>JavaScript</h4>
+          <div class="skill-bar"><span style="width:88%"></span></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos>
+        <div class="skill-card">
+          <i class="fa-brands fa-bootstrap"></i>
+          <h4>Bootstrap</h4>
+          <div class="skill-bar"><span style="width:90%"></span></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos>
+        <div class="skill-card">
+          <i class="fa-brands fa-node-js"></i>
+          <h4>Node.js</h4>
+          <div class="skill-bar"><span style="width:85%"></span></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos>
+        <div class="skill-card">
+          <i class="fa-solid fa-server"></i>
+          <h4>Express</h4>
+          <div class="skill-bar"><span style="width:83%"></span></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos>
+        <div class="skill-card">
+          <i class="fa-solid fa-leaf"></i>
+          <h4>MongoDB</h4>
+          <div class="skill-bar"><span style="width:80%"></span></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos>
+        <div class="skill-card">
+          <i class="fa-solid fa-code-branch"></i>
+          <h4>Git & GitHub</h4>
+          <div class="skill-bar"><span style="width:82%"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects-section">
+  <div class="container">
+    <div class="section-header" data-aos>
+      <span class="eyebrow">04 — Projects</span>
+      <h2>Things I've <span class="accent-text">built</span></h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6" data-aos>
+        <div class="project-card">
+          <div class="project-visual cake-visual">
+            <i class="fa-solid fa-cake-candles"></i>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Full Stack Application</span>
+            <h3>Cake Order Website</h3>
+            <p>A complete online cake ordering platform where users can browse cake
+            categories, customize orders, add items to cart and checkout —
+            backed by a Node.js/Express API and MongoDB database for order
+            and inventory management.</p>
+            <div class="project-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>Node.js</span><span>Express</span><span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="#" class="proj-link">Source Code <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos>
+        <div class="project-card">
+          <div class="project-visual portfolio-visual">
+            <i class="fa-solid fa-diagram-project"></i>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Frontend Showcase</span>
+            <h3>Personal Portfolio</h3>
+            <p>A modern, responsive personal portfolio website designed to
+            showcase skills, projects and experience — built with clean semantic
+            markup, custom CSS animations, and Bootstrap's responsive grid
+            system for a seamless experience on any device.</p>
+            <div class="project-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="#" class="proj-link">Source Code <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience-section">
+  <div class="container">
+    <div class="section-header" data-aos>
+      <span class="eyebrow">05 — Experience</span>
+      <h2>Where I've <span class="accent-text">worked</span></h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item" data-aos>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Internship</span>
+          <h3>Full Stack Development Intern</h3>
+          <h4>ALKJ Technologics</h4>
+          <p>Worked on real-world web development projects, gaining hands-on
+          experience with front-end technologies and backend integration.
+          Collaborated with the team on building responsive interfaces,
+          debugging code, and following industry best practices for
+          clean, maintainable software.</p>
+          <div class="project-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="contact-box" data-aos>
+      <span class="eyebrow">06 — Get In Touch</span>
+      <h2>Let's build something <span class="accent-text">great together</span></h2>
+      <p class="contact-sub">Have a project in mind or just want to say hi? My inbox is always open.</p>
+      <a href="mailto:moganame04@gmail.com" class="contact-email">moganame04@gmail.com</a>
+
+      <form class="contact-form" id="contactForm">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control custom-input" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control custom-input" placeholder="Your Email" required>
+          </div>
+          <div class="col-12">
+            <input type="text" class="form-control custom-input" placeholder="Subject">
+          </div>
+          <div class="col-12">
+            <textarea class="form-control custom-input" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary-custom w-100">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </form>
+      <div id="formSuccess" class="form-success">Message sent successfully! I'll get back to you soon.</div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© <span id="year"></span> Mogana Shree KS. Crafted with <i class="fa-solid fa-heart"></i> and code.</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:moganame04@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="#home" class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
